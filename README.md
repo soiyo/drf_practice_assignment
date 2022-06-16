@@ -1,12 +1,5 @@
-#### **폴더 구조**
-```bash
-└── week_1.py
-    ├── args_kwargs.py 
-    ├── db_field_key.py 
-    ├── django_queryset_object.py 
-    └── mutable_immutable.py 
-```
----
+[폴더구조보기](#folder)
+
 **1주차 과제_week_1**
  1. args, kwargs를 사용하는 예제 코드 짜보기
 
@@ -42,3 +35,67 @@ users(name='Tommy', age='16', gender='man')
 ---
 **4. django에서 queryset과 object는 어떻게 다른지 서술하기**
  - object는 QuerySet 내부에 있는 객체에 해당한다. QuerySet은 리스트형태의 데이터베이스에서 전달받은 객체의 모음이다.
+---
+# folder
+#### **폴더 구조**
+```bash
+├── README.md
+├── week_1_2
+│   ├── args_kwargs.py
+│   ├── db_field_key.py
+│   ├── django_queryset_object.py
+│   └── mutable_immutable.py
+└── week_3
+    ├── blog
+    │   ├── __init__.py
+    │   ├── __pycache__
+    │   │   ├── __init__.cpython-38.pyc
+    │   │   ├── admin.cpython-38.pyc
+    │   │   ├── apps.cpython-38.pyc
+    │   │   └── models.cpython-38.pyc
+    │   ├── admin.py
+    │   ├── apps.py
+    │   ├── migrations
+    │   │   ├── 0001_initial.py
+    │   │   ├── __init__.py
+    │   │   └── __pycache__
+    │   │       ├── 0001_initial.cpython-38.pyc
+    │   │       └── __init__.cpython-38.pyc
+    │   ├── models.py
+    │   ├── tests.py
+    │   └── views.py
+    ├── db.sqlite3
+    ├── manage.py
+    ├── user
+    │   ├── __init__.py
+    │   ├── __pycache__
+    │   │   ├── __init__.cpython-38.pyc
+    │   │   ├── admin.cpython-38.pyc
+    │   │   ├── apps.cpython-38.pyc
+    │   │   └── models.cpython-38.pyc
+    │   ├── admin.py
+    │   ├── apps.py
+    │   ├── migrations
+    │   │   ├── 0001_initial.py
+    │   │   ├── __init__.py
+    │   │   └── __pycache__
+    │   │       ├── 0001_initial.cpython-38.pyc
+    │   │       ├── 0002_userprofile_is_active_userprofile_is_admin.cpython-38.pyc
+    │   │       ├── 0003_rename_userprofile_user.cpython-38.pyc
+    │   │       └── __init__.cpython-38.pyc
+    │   ├── models.py
+    │   ├── tests.py
+    │   └── views.py
+    └── week_3
+        ├── __init__.py
+        ├── __pycache__
+        │   ├── __init__.cpython-38.pyc
+        │   ├── settings.cpython-38.pyc
+        │   ├── urls.cpython-38.pyc
+        │   └── wsgi.cpython-38.pyc
+        ├── asgi.py
+        ├── settings.py
+        ├── urls.py
+        └── wsgi.py
+```
+---
